@@ -1,0 +1,3 @@
+I know that all of this isn't enough as an apology bas walahi I'm trying my best to make you come back + enty 3arfany kwys awy ya basant bgd, enty 3arfany w you have my soul w ana 3aref enk deep down 3arfa eny most7eel a3ml kda tany 3lshan enty my everything ya basant w 3lshan that's not me 3mtn w 3lshan the only time I tried I lost aghla 7aga 3ndy. I know enk gowaky mesada2any so let's be together again bgd I missed you awyyyyyyyyyyy.
+
+w I'll try w ha fight for you l7d ma tqtn3y aw l7d ma amout l2n **You're worth melting for ya Basant.**

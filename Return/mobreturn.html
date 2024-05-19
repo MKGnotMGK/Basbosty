@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="../styles.css">
+
+    </head> 
+    <body>
+        <div class="container">
+            <div >
+                <h1 class = "header_text">Can you come back pleaseeeeee?</h1>
+            </div>
+            <div class="gif_container">
+                <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdtZ2JiZDR0a3lvMWF4OG8yc3p6Ymdvd3g2d245amdveDhyYmx6eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cLS1cfxvGOPVpf9g3y/giphy.gif" alt="Cute animated illustration">
+            </div>
+            <div class = "buttons">
+                <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
+                <button class="btn" id="noButton" onmouseover="moveButton()" onmouseout="resetButton()" onclick="moveButton()">No</button>
+                <script>
+                  document.getElementById('noButton').style.left = `370px`;
+                  document.getElementById('noButton').style.top = `1150px`;
+
+                  document.getElementById('yesButton').style.left = `370px`;
+                  document.getElementById('yesButton').style.top = `1150px`;
+                    function nextPage() {
+                        window.location.href = "yes.html";
+                    }
+                    function moveButton() {
+
+                      var a = Math.random() * 500
+                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - a;
+                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - a;
+                        document.getElementById('noButton').style.left = `${x}px`;
+                        document.getElementById('noButton').style.top = `${y}px`;
+
+                      setTimeout(function() {
+                      document.getElementById('noButton').style.left = `370px`;
+                      document.getElementById('noButton').style.top = `1150px`;
+                          }, 300);
+                    }
+
+                  //For No Button: left = 570px, top = 570px dsktp
+                  //For Yes Button: left = 550px, top = 570px dsktp
+
+                  //For No Button: left = 370px, top = 1150px mob
+                  //For Yes Button: left = 370px, top = 1150px mob
+
+
+                </script> 
+            </div>
+        </div>
+
+    </body> 
+</html>
