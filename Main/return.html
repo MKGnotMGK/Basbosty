@@ -3,24 +3,13 @@
 <html>
 <head>
     <script>
-        // JavaScript code to detect device type and redirect
+        
         var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
         
         if (isMobile) {
-            window.location.href = "../Return/mobreturn.html"; // Redirect to mobile website
+            window.location.href = "../Return/mobreturn.html";
         } else {
-            window.location.href = "../Return/dskreturn.html"; // Redirect to desktop website
+            window.location.href = "../Return/dskreturn.html";
         }
     </script>
 </head>
-<body>
-    <!-- Your HTML content goes here -->
-    <h1>Welcome!</h1>
-    <p>You will be redirected to the appropriate website based on your device type.</p>
-    
-    <!-- Optional: You can add a message for users whose devices do not support JavaScript -->
-    <noscript>
-        <p>Please enable JavaScript to proceed.</p>
-    </noscript>
-</body>
-</html>

@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <link rel="stylesheet" href="../styles.css">
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        
+        var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-    </head> 
-    <body>
-        <div class="container">
-            <div >
-                <h1 class = "header_text">bamout feeky</h1>
-            </div>
-            <div class="gif_container">
-                <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGtmaDJ3NXBiMnRkdDRnbm42MmQxcmJuNTA4dWlrNzFmbmN2MjZzZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cWvTzEI2tuvBVY5hJR/giphy.gif">
-            </div>
+        if (isMobile) {
+            window.location.href = "mwahmob.html"; 
+        } else {
+            window.location.href = "mwahdsk.html"; 
+        }
+    </script>
+</head>
